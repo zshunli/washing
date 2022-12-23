@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.title{
+    background-color: #77bde6;
+    height: 10vh;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 24px;
+    color:#ffffff;
+}
+.box1{
+    background: #e2f5fd;
+    height: 15vh;
+}
+.box1-1{
+    font-size: 18px;
+    text-align: center;
+    padding: 7%;
+}
+.progress {
+    --bs-progress-height: 1.7rem;
+    --bs-progress-bg: #c4daf1;
+    --bs-progress-border-radius: 0.5rem;
+    --bs-progress-bar-bg: #508be4;
+    display: flex;
+}
+.box2{
+    background: #e2f5fd;
+    height: 60vh;
+}
+.box2-2{
+    background-color: #ffffff;
+    height: 40vh;
+    border-radius: 20px;
+
+}
+.box2-3{
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 10%;
+}
+.box2-4{
+    height:10vh;
+    border-bottom: rgb(112, 112, 112);
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    padding-top: 5%;
+}
+.text2-4-1{
+    font-size: 16px;
+    color: #000;
+    margin-right: 20%;
+}
+.box3{
+    background: #77bde6;
+    height: 15vh;
+}
+.box3-1{
+    padding: 4% 15%;
+}
+.text3{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: bold;
+}

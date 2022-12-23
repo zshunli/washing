@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.title{
+    background-color: #77bde6;
+    height: 10vh;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 24px;
+    color:#ffffff;
+}
+.box1{
+    background: #e2f5fd;
+    height: 15vh;
+}
+.box1-1{
+    font-size: 18px;
+    text-align: center;
+}
+.box2{
+    background: #e2f5fd;
+    height: 60vh;
+}
+.box3{
+    background: #77bde6;
+    height: 15vh;
+}

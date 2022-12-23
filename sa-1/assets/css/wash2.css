@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.title{
+    background-color: #77bde6;
+    height: 10vh;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 24px;
+    color:#ffffff;
+}
+.box1{
+    background: #e2f5fd;
+    height: 15vh;
+}
+.box1-1{
+    font-size: 18px;
+    text-align: center;
+    padding: 7%;
+}
+.progress {
+    --bs-progress-height: 1.7rem;
+    --bs-progress-bg: #c4daf1;
+    --bs-progress-border-radius: 0.5rem;
+    --bs-progress-bar-bg: #508be4;
+    display: flex;
+}
+.box2{
+    background: #e2f5fd;
+    height: 60vh;
+}
+.box3{
+    background: #77bde6;
+    height: 15vh;
+}
+.box3-1{
+    text-align: center;
+    padding: 5%;
+
+}
+button1{
+    background-color: #508be4;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+
+}
+button1:hover {
+    background-color: #ffffff;
+    color: #508be4;
+  }
