@@ -20,17 +20,19 @@
     font-weight: bold;
     text-align: center;
 }
-.box1-2{
-    background-color: #757474;
-    color: #ffffff;
-    display: inline;
-    width: auto;
-    height: auto;
-}
 .box1-3{
-    background-color: #63c4eb;
     height: 15vh;
     padding: 4% 0;
+}
+.hover1{
+    color: #000;
+}
+.hover1:hover{
+    background-color: #77bde6;
+    font-size: 30px;
+    color: #ffffff;
+    transition: .5s;
+    transform: scale(2);
 }
 .box2{
     background: #e2f5fd;

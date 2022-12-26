@@ -39,15 +39,17 @@
     height: 60vh;
 }
 .box2-1{
-    width: auto;
-    height: auto;
+    width: 80%;
+    min-height: 20%;
+    max-height: 90%;
+    background-color: #fff;
+    overflow: auto;
+    text-align: center;
 }
 .text2{
-    font-size: 20px;
-    color: #888888;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 5px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 40px;
 }
 .box3{
     background: #77bde6;
@@ -61,4 +63,8 @@
     letter-spacing: 3px;
     color: #ffffff;
     font-weight: bold;
+}
+.b1{
+    font-size: 35px;
+    line-height: 80px;
 }
