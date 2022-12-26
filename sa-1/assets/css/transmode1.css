@@ -30,6 +30,49 @@
     background: #e2f5fd;
     height: 60vh;
 }
+.box2-2{
+    background-color: #ffffff;
+    max-height: 80%;
+    min-height: 21%;
+    overflow: auto;
+    border-radius: 20px;
+}
+.fs-3{
+    padding-top: 5%;
+    color:#9D9D9D;
+}
+.fs-5{
+    color: #000;
+    margin-left: 10%;
+}
+/*類型下拉式選單*/
+.classdropdown {
+    position: relative;
+}
+.classdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    margin-left: 13%;
+}
+.classdropdown-content .text2-3-2 {
+    color: black;
+    padding: 10px 2px;
+    text-decoration: none;
+    display: block;
+}
+.classdropdown-content .text2-3-2:hover {
+    background-color: #d8d4b5;
+}
+.classdropdown:hover .classdropdown-content {
+    display: block;
+}
+
+button{
+    background-color: #ffffff;
+    border: none;
+}
 .box3{
     background: #77bde6;
     height: 15vh;
