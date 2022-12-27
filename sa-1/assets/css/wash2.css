@@ -2,19 +2,19 @@
     padding: 0px;
     margin: 0px;
 }
-.title{
+.title.fs-4{
     background-color: #77bde6;
     height: 10vh;
     letter-spacing: 3px;
     text-align: center;
-    font-size: 24px;
     color:#ffffff;
+    font-weight: bold;
 }
 .box1{
     background: #e2f5fd;
     height: 15vh;
 }
-.box1-1{
+.fs-4{
     font-size: 18px;
     text-align: center;
     padding: 7%;
@@ -63,14 +63,12 @@
     background: #77bde6;
     height: 15vh;
 }
-.box3-1{
+.box3.fs-5{
     text-align: center;
     padding: 5%;
-
 }
 button1{
     background-color: #508be4;
-    font-size: 18px;
     color: #ffffff;
     font-weight: bolder;
     width: 300px;
