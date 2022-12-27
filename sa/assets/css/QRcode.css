@@ -35,13 +35,13 @@
     transform: scale(2);
 }
 .box2{
-    background: #e2f5fd;
+    background: #77bde6;
     height: 60vh;
 }
 .box2-1{
-    width: 80%;
+    width: auto;
     min-height: 20%;
-    max-height: 95%;
+    max-height: 90%;
     background-color: #fff;
     overflow: auto;
     text-align: center;
@@ -63,12 +63,7 @@
     color: #ffffff;
     font-weight: bold;
 }
-.btn{
-    font-size: 24px;
-    border: #000 solid 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.btn:hover{
-    background-color: #a3d7f5;
+.text4{
+    font-size: 35px;
+    text-align: center;
 }
