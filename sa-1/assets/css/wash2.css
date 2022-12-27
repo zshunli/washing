@@ -49,27 +49,14 @@
     color: #000;
 }
 /*類型下拉式選單*/
-.classdropdown {
-    position: relative;
+.btn1{
+    border: #696969 solid 1px;
 }
-.classdropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 200px;
-    margin-left: 13%;
+.btn1:hover{
+    border: #acacac solid 1px;
 }
-.classdropdown-content .text2-3-2 {
-    color: black;
-    padding: 10px 2px;
-    text-decoration: none;
-    display: block;
-}
-.classdropdown-content .text2-3-2:hover {
-    background-color: #d8d4b5;
-}
-.classdropdown:hover .classdropdown-content {
-    display: block;
+.btn{
+    margin: 10px 3vh;
 }
 /*bottom*/
 .box3{
@@ -98,3 +85,9 @@ button1:hover {
     color: #508be4;
     border: transparent;
 }
+
+
+
+
+
+

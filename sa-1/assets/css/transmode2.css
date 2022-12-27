@@ -44,7 +44,6 @@
 .fs-5{
     color: #000;
     margin-left: 12%;
-    border-bottom: #9d9d9d solid 2px;
 }
 /*google map*/
 @media (max-width: 599px) {
@@ -64,33 +63,16 @@
     }
 }
 /*類型下拉式選單*/
-.classdropdown {
-    position: relative;
+.btn1{
+    border: #696969 solid 1px;
 }
-.classdropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 200px;
-    margin-left: 13%;
+.btn1:hover{
+    border: #acacac solid 1px;
 }
-.classdropdown-content .text2-3-2 {
-    color: black;
-    padding: 10px 2px;
-    text-decoration: none;
-    display: block;
+.btn{
+    margin: 15px 1vh;
 }
-.classdropdown-content .text2-3-2:hover {
-    background-color: #d8d4b5;
-}
-.classdropdown:hover .classdropdown-content {
-    display: block;
-}
-
-button{
-    background-color: #ffffff;
-    border: none;
-}
+/*bottom*/
 .box3{
     background: #77bde6;
     height: 15vh;
@@ -98,7 +80,6 @@ button{
 .box3-1{
     text-align: center;
     padding: 5%;
-
 }
 button1{
     background-color: #508be4;
@@ -116,3 +97,10 @@ button1:hover {
     background-color: #ffffff;
     color: #508be4;
   }
+.btn.btn-primary{
+    max-width: 60%;
+    margin-left: 20%;
+}
+.modal-body{
+    text-align: left;
+}
