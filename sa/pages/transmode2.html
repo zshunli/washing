@@ -38,24 +38,23 @@
                     <img src="../assets/img/map.png" width="40px" height="40px">
                     送洗門市<br>
                     <div class="dropdown">
-                        <button class="btn  dropdown-toggle btn1" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="fs-5">中原店</span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <li><button class="dropdown-item" type="button">中原店</button></li>
-                          <li><button class="dropdown-item" type="button">大園店</button></li>
-                          <li><button class="dropdown-item" type="button">蘆竹店</button></li>
-                          <li><button class="dropdown-item" type="button">龜山店</button></li>
-                          <li><button class="dropdown-item" type="button">桃園店</button></li>
-                          <li><button class="dropdown-item" type="button">八德店</button></li>
-                          <li><button class="dropdown-item" type="button">大溪店</button></li>
-                          <li><button class="dropdown-item" type="button">復興店</button></li>
-                          <li><button class="dropdown-item" type="button">龍潭店</button></li>
-                          <li><button class="dropdown-item" type="button">平鎮店</button></li>
-                          <li><button class="dropdown-item" type="button">楊梅店</button></li>
-                          <li><button class="dropdown-item" type="button">新屋店</button></li>
-                          <li><button class="dropdown-item" type="button">觀音店</button></li>
-                        </ul>
+                        <select class="btn dropdown-toggle btn1" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2" name="time">
+                                <option><button class="dropdown-item" type="button">中原店</button></option>
+                                <option><button class="dropdown-item" type="button">大園店</button></option>
+                                <option><button class="dropdown-item" type="button">蘆竹店</button></option>
+                                <option><button class="dropdown-item" type="button">龜山店</button></option>
+                                <option><button class="dropdown-item" type="button">桃園店</button></option>
+                                <option><button class="dropdown-item" type="button">八德店</button></option>
+                                <option><button class="dropdown-item" type="button">大溪店</button></option>
+                                <option><button class="dropdown-item" type="button">復興店</button></option>
+                                <option><button class="dropdown-item" type="button">龍潭店</button></option>
+                                <option><button class="dropdown-item" type="button">平鎮店</button></option>
+                                <option><button class="dropdown-item" type="button">楊梅店</button></option>
+                                <option><button class="dropdown-item" type="button">新屋店</button></option>
+                                <option><button class="dropdown-item" type="button">觀音店</button></option>
+                            </div>
+                        </select>
                     </div>       
                 </div>
                 <div class="google-maps">
@@ -86,15 +85,14 @@
                             預計完成時間：<span class="fs-6">2023/1/2</span><br>
                             取件時間：<br>
                             <div class="dropdown">
-                                <button class="btn  dropdown-toggle btn1" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span class="fs-6">2023/1/2/14:00</span>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">2023/1/2/14:00</button></li>
-                                <li><button class="dropdown-item" type="button">2023/1/2/15:00</button></li>
-                                <li><button class="dropdown-item" type="button">2023/1/2/16:00</button></li>
-                                <li><button class="dropdown-item" type="button">2023/1/2/17:00</button></li>
-                                </ul>
+                                <select class="btn1  dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2" name="time">
+                                        <option><button class="dropdown-item" type="button">2023/1/2/14:00</button></option>
+                                        <option><button class="dropdown-item" type="button">2023/1/2/15:00</button></option>
+                                        <option><button class="dropdown-item" type="button">2023/1/2/16:00</button></option>
+                                        <option><button class="dropdown-item" type="button">2023/1/2/17:00</button></option>
+                                    </div>
+                                </select>
                             </div>           
                         </span>
                     </div>
@@ -104,6 +102,23 @@
                   </div>
                 </div>
             </div>  
+            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel2">確認完成通知</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/check.png" width="30px" height="30px" style="margin-left:45%;">
+                        <div class="fs-5">訂單已送出!</div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-toggle="modal">關閉</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
             <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">確認訂單</a>
         </div>
     </div>

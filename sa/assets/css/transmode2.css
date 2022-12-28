@@ -63,13 +63,19 @@
 }
 /*類型下拉式選單*/
 .btn1{
-    border: #696969 solid 1px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    color: #000;
 }
 .btn1:hover{
-    border: #acacac solid 1px;
+    border: #000 solid 1px;
+    color: #000;
 }
-.btn{
-    margin: 15px 1vh;
+.btn.btn1{
+    border-radius: 10px;
+    border: #000 solid 1px;
+    margin: 10px 0 10px 40px;
+    color: #000;
 }
 /*bottom*/
 .box3{
@@ -96,10 +102,15 @@ button1:hover {
     background-color: #ffffff;
     color: #508be4;
   }
+/*提示框*/
 .btn.btn-primary{
     max-width: 60%;
     margin-left: 20%;
 }
 .modal-body{
     text-align: left;
+}
+.modal-body>.fs-5{
+    margin-left: 35%;
+    margin-top: 5%;
 }
