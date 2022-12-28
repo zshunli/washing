@@ -43,10 +43,15 @@ a>.fs-6:hover{
     background-color: #fff;
     overflow: auto;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px #757474;
 }
 .a1>.fs-3{
     color: #000;
     border-bottom: #646464 solid 2px;
+}
+.a1>.fs-3>.fs-3{
+    color: #000;
 }
 .a1>.fs-3:hover{
     background-color: #aee9ff;
