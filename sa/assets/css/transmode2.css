@@ -35,6 +35,7 @@
     min-height: 21%;
     overflow: auto;
     border-radius: 20px;
+    box-shadow: 10px 10px 25px #757474;
 }
 .fs-3{
     padding-top: 5%;

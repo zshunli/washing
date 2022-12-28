@@ -43,6 +43,7 @@ a>.fs-6:hover{
     background-color: #fff;
     overflow: auto;
     text-align: center;
+    border-radius: 20px;
 }
 .box2-1>.fs-4{
     font-size: 24px;

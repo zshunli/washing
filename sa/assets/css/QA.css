@@ -43,6 +43,8 @@ a>.fs-6:hover{
     background-color: #fff;
     overflow: auto;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px #757474;
 }
 .fs-5{
     text-align: left;

@@ -36,7 +36,7 @@
     min-height: 60%;
     overflow: auto;
     border-radius: 20px;
-
+    box-shadow: 10px 10px 25px #757474;
 }
 .fs-3{
     color: #9d9d9d;

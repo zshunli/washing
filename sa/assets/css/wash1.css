@@ -36,8 +36,7 @@
     max-height: 80%;
     overflow: auto;
     border-radius: 20px;
-    box-shadow: 5px #000;
-
+    box-shadow: 10px 10px 25px #757474;
 }
 .box2-2>.fs-3{
     padding-top: 2%;
