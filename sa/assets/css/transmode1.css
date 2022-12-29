@@ -44,15 +44,27 @@
 .fs-5{
     color: #000;
 }
+.fs-5.padding{
+    padding-left: 40px;
+}
+.padding2{
+    text-align: left;
+}
 /*類型下拉式選單*/
 .btn1{
-    border: #696969 solid 1px;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    color: #000;
 }
 .btn1:hover{
-    border: #acacac solid 1px;
+    border: #000 solid 1px;
+    color: #000;
 }
-.btn{
-    margin: 10px 3vh;
+.btn.btn1{
+    border-radius: 10px;
+    border: #000 solid 1px;
+    margin: 10px 0 10px 40px;
+    color: #000;
 }
 /*bottom*/
 .box3{
@@ -61,21 +73,22 @@
 }
 .box3.fs-5{
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 
 }
-button1{
-    background-color: #508be4;
-    color: #ffffff;
+.button1{
+    background-color: #78a7ec;
     font-weight: bolder;
     width: 300px;
     height: 300px;
     border-radius: 12px;
     padding: 14px 40px;
     transition-duration: 0.4s;
-
 }
-button1:hover {
+.button2{
+    color: #ffffff;
+}
+.button2:hover {
     background-color: #ffffff;
-    color: #508be4;
+    color: #78a7ec;
   }

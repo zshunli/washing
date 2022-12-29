@@ -37,7 +37,7 @@
                 <div class="fs-3">
                     <img src="../assets/img/credit-card.png" width="25px" height="25px">
                     付款方式<br>
-                    <span class="fs-5">信用卡</span>
+                    <span class="fs-5 padding">信用卡</span>
                 </div>
             </div>
             <div class="col-10 box2-2">
@@ -45,39 +45,54 @@
                     <img src="../assets/img/user.png" width="25px" height="25px">
                     寄/取件方式<br>
                     <div class="dropdown">
-                        <button class="btn  dropdown-toggle btn1" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="fs-5">自行送往</span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <li><button class="dropdown-item" type="button">自行送往</button></li>
-                          <li><button class="dropdown-item" type="button">外送平台</button></li>
-                        </ul>
+                        <select class="btn  dropdown-toggle btn1" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <option><button class="dropdown-item" type="button">自行送往</button></option>
+                                <option><button class="dropdown-item" type="button">外送平台</button></option>
+                            </div>
+                        </select>
                     </div>       
                 </div>
             </div>
             <div class="col-10 box2-2">
                 <div class="fs-3">
                     <img src="../assets/img/search-homepage.png" width="25px" height="25px">
-                    送洗門市(常)<br>
+                    送洗門市<br>
                     <div class="dropdown">
-                        <button class="btn  dropdown-toggle btn1" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="fs-5">中原店</span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <li><button class="dropdown-item" type="button">中原店</button></li>
-                          <li><button class="dropdown-item" type="button">大園店</button></li>
-                          <li><button class="dropdown-item" type="button">蘆竹店</button></li>
-                          <li><button class="dropdown-item" type="button">龜山店</button></li>
-                          <li><button class="dropdown-item" type="button">桃園店</button></li>
-                          <li><button class="dropdown-item" type="button">八德店</button></li>
-                          <li><button class="dropdown-item" type="button">大溪店</button></li>
-                          <li><button class="dropdown-item" type="button">復興店</button></li>
-                          <li><button class="dropdown-item" type="button">龍潭店</button></li>
-                          <li><button class="dropdown-item" type="button">平鎮店</button></li>
-                          <li><button class="dropdown-item" type="button">楊梅店</button></li>
-                          <li><button class="dropdown-item" type="button">新屋店</button></li>
-                          <li><button class="dropdown-item" type="button">觀音店</button></li>
-                        </ul>
+                        <select class="btn  dropdown-toggle btn1" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <option><button class="dropdown-item" type="button">中原店</button></option>
+                                <option><button class="dropdown-item" type="button">大園店</button></option>
+                                <option><button class="dropdown-item" type="button">蘆竹店</button></option>
+                                <option><button class="dropdown-item" type="button">龜山店</button></option>
+                                <option><button class="dropdown-item" type="button">桃園店</button></option>
+                                <option><button class="dropdown-item" type="button">八德店</button></option>
+                                <option><button class="dropdown-item" type="button">大溪店</button></option>
+                                <option><button class="dropdown-item" type="button">復興店</button></option>
+                                <option><button class="dropdown-item" type="button">龍潭店</button></option>
+                                <option><button class="dropdown-item" type="button">平鎮店</button></option>
+                                <option><button class="dropdown-item" type="button">楊梅店</button></option>
+                                <option><button class="dropdown-item" type="button">新屋店</button></option>
+                                <option><button class="dropdown-item" type="button">觀音店</button></option>
+                            </div>
+                        </select>
+                            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalToggleLabel">店家位置</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      Show a second modal and hide this one with the button below.
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button class="btn btn-primary" data-bs-toggle="modal">關閉</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>    
+                        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">查看位置</a>
                     </div>       
                 </div>
             </div>
@@ -86,8 +101,64 @@
 
     <div class="container-fluid">
         <div class="row box3 fs-5 align-items-center ">
-            <div class="col-6"><button1><a href="wash2.html" style="text-decoration: none;">上一步</a></button1></div>  
-            <div class="col-6"><button1><a href="transmode2.html" style="text-decoration: none;">下一步</a></button1></div>   
+            <div class="col-6"><button1><a class="button1 button2" href="wash2.html" style="text-decoration: none;">上一步</a></button1></div>  
+            <div class="col-6">           
+                <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel1" tabindex="--1">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel1">預定完成</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="padding2 modal-body">
+                            <span class="fs-6">
+                                選擇模式：<span class="fs-6">預設模式</span><br>
+                                付款方式：<span class="fs-6">信用卡</span><br>
+                                寄/取件方式：<span class="fs-6">自行送往</span><br>
+                                送洗門市：<span class="fs-6">中原店</span><br>
+                                送洗桶數：<span class="fs-6">3桶</span><br>
+                                預計獲得的點數：<span class="fs-6">1500點</span><br>
+                                付款金額：<span class="fs-6">100NT</span><br>
+                                預計完成時間：<span class="fs-6">2023/1/2</span><br>
+                                取件時間：<br>
+                                <div class="dropdown">
+                                    <select class="btn1  dropdown-toggle" type="button" id="" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2" name="time">
+                                            <option><button class="dropdown-item" type="button">2023/1/2/14:00</button></option>
+                                            <option><button class="dropdown-item" type="button">2023/1/2/15:00</button></option>
+                                            <option><button class="dropdown-item" type="button">2023/1/2/16:00</button></option>
+                                            <option><button class="dropdown-item" type="button">2023/1/2/17:00</button></option>
+                                        </div>
+                                    </select>
+                                </div>           
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">確認</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>  
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel2">確認完成通知</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../assets/img/check.png" width="30px" height="30px">
+                            <div class="fs-5">訂單已送出!</div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-toggle="modal">關閉</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <a class="button1 button2" data-bs-toggle="modal" href="#exampleModalToggle3" style="text-decoration: none;" role="button">確認訂單</a>
+
+            </div>   
         </div>
     </div>
 
