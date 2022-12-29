@@ -50,6 +50,19 @@ a>.fs-6:hover{
     color: #000;
     text-align: left;
 }
+.button1{
+    border-radius: 40px;
+    background-color: #ffffff;
+    color: #5c9dc2;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: #757474 solid 1px;
+}
+.button1:hover{
+    background-color: #a3d7f5;
+    color: #ffffff;
+}
 .box3{
     background: #77bde6;
     height: 15vh;
@@ -63,11 +76,15 @@ a>.fs-6:hover{
     
 }
 .btn{
-    font-size: 24px;
-    border: #000 solid 1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5c9dc2;
+    border: #757474 solid 1px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 .btn:hover{
     background-color: #a3d7f5;
+    color: #ffffff;
 }
