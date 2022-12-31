@@ -28,7 +28,7 @@
 }
 .box2{
     background: #e2f5fd;
-    height: 60vh;
+    height: 75vh;
 }
 .box2-2{
     background-color: #ffffff;
@@ -49,15 +49,4 @@
 button{
     background-color: transparent;
     border: none;
-}
-.box3{
-    background: #77bde6;
-    height: 15vh;
-}
-.box3-1{
-    padding: 4% 15%;
-}
-.fs-3{
-    letter-spacing: 1%;
-    color: #ffffff;
 }

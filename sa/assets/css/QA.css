@@ -26,7 +26,7 @@ a>.fs-6:hover{
 }
 .box2{
     background: #e2f5fd;
-    height: 60vh;
+    height: 75vh;
 }
 .box2-1{
     width: 80%;
@@ -37,20 +37,10 @@ a>.fs-6:hover{
     text-align: center;
     border-radius: 20px;
     box-shadow: 10px 10px 25px #757474;
+    margin-top: 10px;
 }
 .fs-5{
     text-align: left;
-}
-.box3{
-    background: #77bde6;
-    height: 15vh;
-}
-.box3-1{
-    padding: 4% 15%;
-}
-.fs-3{
-    letter-spacing: 1%;
-    color: #ffffff;
 }
 .fs-2{
     line-height: 80px;

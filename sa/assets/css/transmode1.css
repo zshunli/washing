@@ -45,6 +45,9 @@
     padding: 10px;
     font-size: 20px;
 }
+input:required{
+    border-color: #ff0000;
+}
 .fs-3{
     padding-top: 5%;
     color:#9D9D9D;

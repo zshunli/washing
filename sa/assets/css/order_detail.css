@@ -26,17 +26,18 @@ a>.fs-6:hover{
 }
 .box2{
     background: #e2f5fd;
-    height: 60vh;
+    height: 75vh;
 }
 .box2-1{
     width: 80%;
     min-height: 20%;
-    max-height: 95%;
+    max-height: 80%;
     background-color: #fff;
     overflow: auto;
     text-align: center;
     border-radius: 20px;
     box-shadow: 10px 10px 25px #757474;
+    margin-top: 10px;
 }
 .box2-1>.fs-4{
     color: #000;
@@ -54,18 +55,6 @@ a>.fs-6:hover{
 .button1:hover{
     background-color: #a3d7f5;
     color: #ffffff;
-}
-.box3{
-    background: #77bde6;
-    height: 15vh;
-}
-.box3-1{
-    padding: 4% 15%;
-}
-.fs-3{
-    letter-spacing: 1%;
-    color: #ffffff;
-    
 }
 .btn{
     font-size: 18px;
