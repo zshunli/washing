@@ -37,6 +37,14 @@
     border-radius: 20px;
     box-shadow: 10px 10px 25px #757474;
 }
+.dard{
+    border-radius: 10px;
+    border: #757474 solid 1px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
 .fs-3{
     padding-top: 5%;
     color:#9D9D9D;
