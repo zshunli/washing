@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from .models import price
+from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
@@ -11,7 +13,18 @@ def wash1(request):
     return render(request, "wash1.html")
 
 def wash2(request):
-    return render(request, "wash2.html")
+    if request.method == 'POST':
+        mode_wash = request.POST.get('wash')
+        #mode_spin = request.POST.get('spin')
+        #mode_dry = request.POST.get('dry')
+        #mode_fold = request.POST.get('fold')
+        print(mode_wash)
+        #print(mode_spin)
+        #print(mode_dry)
+        #print(mode_fold)
+        return render(request, "wash2.html")
+    elif request.method == 'GET':
+        return render(request, "wash2.html")
 
 def order(request):
     return render(request, "order.html")
