@@ -16,11 +16,14 @@
     <div class="container-fluid">
         <div class="row box2 align-items-center justify-content-center">
             <div class="col-12 box2-1">
-                <img src="{% static 'images/teacher.jpg' %}" width="280px" height="280px" style="border-radius: 50%;border-width: 15px;border-style: solid;border-color: #797979;text-align: center;" >
-                <br><div class="fs-5">智慧喜之父</div>
+                <img src="{{ pic }}" width="280px" height="280px" style="border-radius: 50%;border-width: 15px;border-style: solid;border-color: #797979;text-align: center;" >
+                <br><div class="fs-5">{{ username }}</div>
+                <!-- <a href="{% url 'logout' %}">Logout</a> -->
             </div>
         </div>
+
     </div>
 
+    
 </body>
 </html>

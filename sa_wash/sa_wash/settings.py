@@ -29,8 +29,10 @@ SECRET_KEY = "django-insecure-@x5*6pop6)3aq2#0wwq^kmnoq3vk6dw&lq7-m763#&rr^0=j5h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
+#避免使用ngrok網址傳form出錯
+CSRF_TRUSTED_ORIGINS = ['https://77ad-114-32-188-99.jp.ngrok.io']
 
 # Application definition
 
@@ -42,7 +44,19 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "washapp",
+    "loginapp",
+    'qr_code',
 ]
+
+REST_FRAMEWORK = {
+    "PAGE_SIZE": 100,
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "rest_framework.authentication.SessionAuthentication",
+        "rest_framework.authentication.TokenAuthentication",
+    ),
+    "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
+}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",

@@ -17,13 +17,11 @@
 }
 .fs-4{
     text-align: center;
-    padding: 7%;
 }
-.progress {
-    --bs-progress-height: 1.7rem;
-    --bs-progress-bg: #c4daf1;
-    --bs-progress-border-radius: 0.5rem;
-    --bs-progress-bar-bg: #508be4;
+.progress1 {
+    height: 1.7rem;
+    background-color: #c4daf1;
+    border-radius: 0.5rem;
     display: flex;
 }
 .box2{

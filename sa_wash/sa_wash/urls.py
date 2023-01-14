@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from apps.washapp import urls as washapp_urls
+from apps.loginapp import urls as loginapp_urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include(washapp_urls))
+    path("wash/", include(washapp_urls)),
+    path("", include(loginapp_urls)),
 ]

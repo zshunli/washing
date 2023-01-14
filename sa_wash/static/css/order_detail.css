@@ -10,6 +10,9 @@
     font-weight: bolder;
     color:#ffffff;
 }
+.fs-4 {
+    text-align: left;
+}
 .box1{
     background: #e2f5fd;
     height: 15vh;
@@ -31,13 +34,14 @@ a>.fs-6:hover{
 .box2-1{
     width: 80%;
     min-height: 20%;
-    max-height: 80%;
+    max-height: 90%;
     background-color: #fff;
     overflow: auto;
     text-align: center;
     border-radius: 20px;
     box-shadow: 10px 10px 25px #757474;
     margin-top: 10px;
+    padding-top: 10px;
 }
 .box2-1>.fs-4{
     color: #000;
@@ -56,16 +60,26 @@ a>.fs-6:hover{
     background-color: #a3d7f5;
     color: #ffffff;
 }
-.btn{
-    font-size: 18px;
+.btn:hover{
+    background-color: #a3d7f5;
+    color: #ffffff;
+}
+input {
+    width: 100%;
+    border: none;
+    display: inline;
+}
+input:focus {
+    outline: none;
+}
+.finish, .qr {
+    font-size: 20px;
     font-weight: bold;
     color: #5c9dc2;
     border: #757474 solid 1px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 20px;
-}
-.btn:hover{
-    background-color: #a3d7f5;
-    color: #ffffff;
+    border-radius: 50px;
+    background: none;
+    padding: 5px 10px;
 }

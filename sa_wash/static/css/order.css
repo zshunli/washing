@@ -18,10 +18,10 @@
     font-weight: bold;
     text-align: center;
 }
-a>.fs-6{
+button>.fs-6{
     color: #000;
 }
-a>.fs-6:hover{
+button>.fs-6:hover{
     color: #5aa3ce;
 }
 .box2{
@@ -42,10 +42,18 @@ a>.fs-6:hover{
 .a1>.fs-3{
     color: #000;
     border-bottom: #646464 solid 2px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    width: 250px;
 }
 .a1>.fs-3>.fs-3{
     color: #000;
 }
 .a1>.fs-3:hover{
     background-color: #aee9ff;
+}
+button {
+    background: none;
+    border: none;
 }
